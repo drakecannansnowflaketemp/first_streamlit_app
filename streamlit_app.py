@@ -45,7 +45,7 @@ except:
 
 
 # Don't run anything past this while we troubleshoot
-streamlit.stop()
+# streamlit.stop()
 
 # Snowflake connection
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
